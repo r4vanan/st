@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=15:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=15:antialias=true:autohint=true" };
-static int borderpx = 15;
+static char *font = "JetBrains Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=14:antialias=true:autohint=true" };
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -131,8 +131,8 @@ static const char *colorname[] = {
 	"#ebdbb2",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
+	"#ff0000", /* 256 -> cursor */
+	"#ff8080", /* 257 -> rev cursor*/
 	"#282828", /* 258 -> bg */
 	"#ebdbb2", /* 259 -> fg */
 };
